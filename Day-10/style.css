@@ -1,0 +1,118 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+img {
+    max-width: 600px;
+    border-radius: 10px;
+}
+.bigcontainer {
+background-color: rgb(230, 214, 193);
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.Container {
+background-color: white;
+width: 600px;
+padding: 15px;
+font-size: 14.5px;
+border-radius: 10px;
+
+}
+.Subcontainer {
+    color:hsl(33, 43%, 24%);
+}
+.Subcontainer1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+.Subcontainer2 {
+   background-color: hsl(330, 100%, 98%);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+.big1 {
+   line-height: 2;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+    /* font-family: Young serif ; */
+    color: rgb(75, 49, 14);
+}
+h2 {
+    color: hsl(332, 51%, 32%);
+    line-height: 0;
+}
+h3 {
+    color:hsl(32, 51%, 41%); 
+    font-size: 30px;
+    line-height: 0;
+}
+.big {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    
+}
+.list {
+    color: rgb(159, 102, 29);
+    word-spacing: 5px;
+}
+.Subcontainer4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+h4 {
+  color:hsl(32, 51%, 41%) ;
+  font-size: 30px;
+  line-height: 0;
+}
+h5 {
+    color:hsl(32, 51%, 41%) ;
+  font-size: 30px;
+  line-height: 0; 
+}
+.Subcontainer6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Subcontainer7 {
+    word-spacing: 300px;
+    line-height: 1;
+}
+.Subcontainer6 b {
+    display: flex;
+    flex-direction: column;
+text-align: center;
+color: rgb(215, 129, 16);
+}
+@media only screen and (max-width: 600px) {
+   img {
+    max-width: 300px;
+   }
+   .bigcontainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+    .Container {
+        width: 300px;
+        padding: 7.5px;
+        font-size: 7px;
+        border-radius: 5px;
+        
+        }
+        .Subcontainer2 {
+            padding: 5px;
+            border-radius: 5px;
+            
+         }
+  }

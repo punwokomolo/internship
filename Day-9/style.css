@@ -1,0 +1,147 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  /* min-width: 30px; */
+  /* padding-left: 40px; */
+  background-color: rgb(234, 232, 251);
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(169, 180, 188);
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: rgb(191, 191, 223);
+}
+
+.Subcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(40, 40, 230);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-radius: 35px;
+  padding: 60px;
+   padding-left: 35px; 
+  padding-right: 30px;
+  /* padding-top: 30px;
+  padding-bottom: 30px;  */
+  /* height: 24.5rem; */
+}
+
+.Subcontainer2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Circle{
+  background-color: rgb(28, 23, 174);
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score {
+  color: rgba(255, 255, 255, 0.992);
+}
+
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #393e55;
+  font-size: large;
+}
+
+.bag {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 80px;
+  color: azure;
+  width: 250px;
+  justify-content: center;
+  font-size: large;
+  margin: 0%;
+  height: 18rem;
+  padding-left: 10px;
+  padding-right: 30px;
+  
+}
+
+.button-container button {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  outline: none;
+  word-spacing: 120px;
+  text-size-adjust: 100px;
+  padding: 7px;
+  border-radius: 12px;
+  width: 250px;
+  margin: 15px;
+  border: 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.button-1 {
+  background-color: rgb(248, 232, 232);
+  color: rgb(187, 19, 19);
+}
+
+.button-2 {
+  background-color: rgb(246, 240, 236);
+  color: rgb(251, 173, 64);
+}
+
+.button-3 {
+  background-color: rgb(237, 244, 237);
+  color: rgb(17, 171, 46);
+}
+
+.button-4 {
+  background-color: rgb(236, 228, 249);
+  color: rgb(24, 30, 187);
+  margin: 0%;
+}
+
+.button-5 {
+  background-color: rgb(49, 48, 86);
+  color: rgb(227, 224, 247);
+  font-size: large;
+  border-radius: 50px;
+  margin: 0px;
+  padding: 10px;
+  border: 0px;
+}
+
+
+@media (max-width: 900px) {
+  .Circle{
+    /* background-color: red; */
+  }
+  .Container{
+    margin-left: 30px;
+  margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
